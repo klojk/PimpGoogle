@@ -1,0 +1,71 @@
+ul{
+  ;
+}
+
+li{
+  display: inline;
+  float: right;
+  display: block;
+  padding: 8px;
+  
+}
+.connexion{
+  background-color: blue;
+  color: white;
+
+
+}
+.milieu{
+  text-align: center
+}
+
+}
+  
+
+     .Parametres {
+  
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+     }
+
+      .Conditions{
+
+   position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+     }
+
+      .Confidentialite{
+     position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+     }
+
+      .Entreprise{
+     position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+     }
+ }
+
+  .Publicite{
+      position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+     {}
+
+   .Apropos{
+   
+            position: fixed;
+         bottom: 0;
+         width: 100%;
+     }
+ }
+}
+
