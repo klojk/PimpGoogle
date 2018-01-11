@@ -1,71 +1,85 @@
 ul{
-  ;
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
 }
-
 li{
   display: inline;
   float: right;
   display: block;
   padding: 8px;
-  
+  font-size: 0.5;
+  text-decoration: none;
 }
 .connexion{
-  background-color: blue;
+  padding: 10px;
+  background-color: #4FAFDF;
   color: white;
-
-
 }
 .milieu{
+  margin-top:80px;
   text-align: center
 }
-
+.barre{
+  height: 30px;
+  width: 632px;
+  background:white;
+  box-shadow: 6px 6px 6px grey
 }
-  
+.boutons{
+  border: 1px #EFEFEF solid;
+  margin-top:20px;
+  background: #EFEFEF;
+  height:20px;
+  width:50;
+}
+.boutons:hover{
+  border: 1px #BFBFBF solid;
+  margin-top:20px;
+  background: #EFEFEF;
+  height:20px;
+  width:50;
+  font-weight: bold;
+}
 
-     .Parametres {
-  
+a{
+  color: black;
+  text-decoration: none;
+}
+.liste{
+    display: inline;
+    float: left;
+    background:#EEEEEE;
     position: fixed;
     bottom: 0;
     width: 100%;
 }
-     }
-
-      .Conditions{
-
-   position: fixed;
+/*.pub{
+  float: left;
+    background:#EEEEEE;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+.aporp{
+  float:left;
+    background:#EEEEEE;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }
-     }
-
-      .Confidentialite{
-     position: fixed;
+.entr{
+  float: left;
+    background:#EEEEEE;
+    position: fixed;
     bottom: 0;
     width: 100%;
-}
-     }
+  }
+  */
 
-      .Entreprise{
-     position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-     }
- }
-
-  .Publicite{
-      position: fixed;
-    bottom: 0;
-    width: 100%;
-}
-     {}
-
-   .Apropos{
-   
-            position: fixed;
-         bottom: 0;
-         width: 100%;
-     }
- }
-}
-
+#hide
+{
+  visibility:hidden;
+  }
